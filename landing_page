@@ -241,7 +241,7 @@ footer{
             <button>Order Now</button>
             </td>
             <td>
-              <img id="image" src="C:\Users\jsypj\Downloads\My project (2).png">
+              <img id="image" src="My project (2).png">
             </td>
           </tr>
         </table>
