@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>product landing page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <style>
+	@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body{
+  margin:0;
+}
+main{
+  padding-top:100px;
+}
+#header{
+  margin:0;
+  width:100%;
+  height:20%;
+  display:flex;
+  padding-left:30px;
+  justify-content:space-between;
+  position:fixed;
+  top:0;
+  flex-wrap:wrap;
+  background-color:white;
+  background-size:cover;
+}
+#header-img{
+  display:flex;
+  height:90px;
+  margin-top:auto;
+  margin-bottom:auto;
+
+}
+#nav-bar{
+  margin-top:auto;
+  margin-bottom:auto;
+  display:flex;
+  width:50%;
+  justify-content:space-between;
+  padding-left:30px;
+  padding-right:50px;
+  
+}
+nav a:link,a:visited,a:active{
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  height:60px;
+  width:100px;
+  padding-top:40px;
+  text-align:center;
+  font-size:25px;
+}
+nav a:hover{
+  display:inline-block;
+  background-color:rgb(252, 158, 205);
+  color:purple;
+  height:60px;
+  width:100px;
+  padding-top:40px;
+  padding-bottom:auto;
+  text-align:center;
+}
+#home{
+  padding-top:45px;
+  background-image:url("https://img.freepik.com/premium-vector/pink-watercolor-wet-splash-background-painting_70155-261.jpg");
+  background-size:cover;
+}
+table,td,tr{
+ 
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+td,tr{
+  padding:30px;
+}
+table h1{
+  font-size:50px;
+  margin-bottom:0;
+  font-size:80px;
+  padding-bottom:30px;
+  padding-top:0;
+}
+table p{
+  margin-top:0;
+  font-size:25px;
+}
+table button{
+  width:200px;
+  height:50px;
+  border-radius:100px;
+  font-size:25px;
+  
+  margin-top:50px;
+  background-color:hotpink;
+   color:white;
+  border:none;
+}
+table button:hover{
+  color:black;
+  border:1px solid black;
+}
+div.img-container {
+  
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+#features{
+  height:500px;
+  padding-top:100px;
+
+}
+#about{
+  height:500px;
+  padding-top:100px;
+  justify-content:center;
+  display:flex;
+  background-image:radial-gradient(pink,white);
+}
+
+#product{
+  height:900px;
+ padding-top:100px;
+ background-image: url("https://wallpapercave.com/wp/wp2602504.jpg");
+  background-size:cover;
+  padding-left:100px;
+  overflow:auto;
+}
+div.gallery{
+  float:left;
+ position:center;
+ background-color:white;
+ margin:30px;
+ box-shadow:10px 10px 5px hotpink;
+}
+.details h1{
+  text-align:center;
+  margin-bottom:0;
+}
+.details p{
+  text-align:center;
+  font-size:20px;
+  padding-top:0;
+  margin-top:2px;
+}
+.details button{
+  margin-bottom:30px;
+  padding:15px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+  display:block;
+  border-radius:100px;
+  background-color:hotpink;
+  color:white;
+  font-size:20px;
+}
+#contact{
+  height:700px;
+  padding-top:100px;
+  background-image:url("https://img.freepik.com/premium-photo/women-smart-watch-pink-background_394307-5426.jpg");
+  background-size:cover;
+}
+#contact h1{
+  font-size:50px;
+  color:deeppink;
+  text-align:center;
+  text-shadow:2px 3px 3px black;
+}
+label{
+  width:60%;
+  display:block;
+  justify-content:space-between;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+#form{
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:12px;
+  padding-top:30px;
+  background-color:rgba(255,255,255,0.95);
+  font-size:20px;
+  
+ }
+input{
+  width:100%;
+  margin-bottom:30px;
+  margin-top:10px;
+  padding:15px;
+  border-color:pink;
+  border-radius:10px;
+}
+input[type="submit"]
+{
+  border-radius:50px;
+  color:white;
+  background-color:deeppink;
+}
+footer{
+  margin:0;
+  display:flex;
+  background-color:rgb(255, 161, 208);
+  padding-right:100px;
+  padding-left:100px;
+  justify-content:space-between;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img id="header-img" src="https://seeklogo.com/images/N/noise-logo-603E93DAFA-seeklogo.com.png">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#features">features</a>
+        <a class="nav-link" href="#product">Product</a>
+        <a class="nav-link" href="#contact">Login</a>
+      </nav>
+    </div>
+    <main>
+      <div id="home">
+        
+        <table>
+          <tr align="center">
+            <td><h1>Noise Smart Watches</h1>
+              <p> Buy the best-in-class smart watches from Noise</p>
+            <button>Order Now</button>
+            </td>
+            <td>
+              <img id="image" src="C:\Users\jsypj\Downloads\My project (2).png">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="features" class="img-container">
+        
+          <img id="img1" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/bb973d6e-f8d7-4a4b-b92c-9d3fab8503ac.__CR0,0,1464,600_PT0_SX1464_V1___.png" >
+       
+          <img id="img2" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/1f19c8fb-a627-46bd-bcba-2bbc26049be7.__CR0,0,1464,600_PT0_SX1464_V1___.png" >
+       
+          <img id="img3" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/aa3ccc1a-9b38-47e7-8690-bc08a23069f1.__CR0,0,1464,600_PT0_SX1464_V1___.png">
+       
+          <img id="img4" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/a6c12d02-f771-4438-be19-16734a4cc307.__CR0,0,1464,600_PT0_SX1464_V1___.png" >
+       
+      </div>
+      <div id="product" class="product">
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/613r4jBBFWL._SY450_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Deep Wine</h1>
+            <p>Price : Rs.1,499.00</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/61KH3p+zbuL._SY450_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Rose Pink</h1>
+            <p>Price : 1,299.00</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/61+DiE3OxRL._SY450_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Forest Green</h1>
+            <p>Price : Rs.1,499.00</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/61QMPHGyc2L._SX679_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Jet Black</h1>
+            <p>Price : Rs.1,199.00</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/61TI0T87SpL._SX679_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Silver Grey</h1>
+            <p>Price : Rs.1,299.00</p>
+            <button>Order Now</button></div>
+        </div>
+        <div class="gallery">
+          <img src="https://m.media-amazon.com/images/I/61PmIDoJn7L._SX679_.jpg" width="300" height="200">
+          <div class="details">
+            <h1>Space Blue</h1>
+            <p>Price : Rs.1,499.00</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <div id="contact">
+        <h1>LOGIN</h1>
+        <form id="form">
+          <label for="name">Name   <input id="name" type="text" placeholder="Enter your name" required></label>
+          <label for="email">Email    <input id="email" type="email" placeholder="Enter your email" required name="email"></label>
+          <label for="phno">Phone number<input type="number" min-length="10" max-length="10" placeholder="Enter phone number"></label>
+          <label for="submit"><input type="submit"  id="submit" value="Submit"></label>
+        </form>
+      </div> 
+
+    </main>
+    <footer id="footer">
+      <div><p>Email:noisewatches@gmail.com</p></div>
+      <div ><p>contact no:479010</p>
+      </div>
+    </footer>
+  </body>
+</html>
